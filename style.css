@@ -1,0 +1,57 @@
+#top-banner{
+    text-align: center;
+    background-image: url("image/donate-top.png");
+    background-size: cover;
+    padding: 200px;   
+}
+#donation{
+    text-align: center;
+    padding: 200px;   
+}
+.slogan{
+    font-size: 55px;
+}
+p{
+    font-size: 20px;
+}
+.top-info{
+    color: white;
+}
+button{
+   padding: 15px;
+   border-radius: 5px;
+   color: azure;
+   background-color: orange;
+   border: none;
+   font-size: 20px;
+}
+.btn{
+    padding: 40px;
+}
+
+.amount{
+    display: flex;
+    justify-content: center;
+}
+
+.taka{
+  background-color: rgb(247, 237, 237);
+  width: 250px;
+  border: 3px solid rgba(135, 137, 135, 0.404);
+  border-radius: 7px;
+  padding: 50px;
+  margin: 20px;
+  font-size: 30px;
+  color: rgb(73, 73, 71);
+}
+.red{
+    background-color: rgb(235, 174, 174);
+    border: 3px solid rgb(240, 71, 55);
+}
+
+.other-amount{
+    border-bottom: 3px solid gainsboro;
+    padding-top: 100px ;
+    font-size: 20px;
+    color: gainsboro;
+}
