@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 #top-banner{
     text-align: center;
     background-image: url("image/donate-top.png");
@@ -12,13 +17,13 @@
     font-size: 55px;
 }
 p{
-    font-size: 20px;
+    font-size: 25px;
 }
 .top-info{
     color: white;
 }
 button{
-   padding: 20px;
+   padding: 10px 20px;
    border-radius: 5px;
    color: azure;
    background-color: orange;
@@ -29,7 +34,7 @@ button{
     padding: 40px;
 }
 
-.amount{
+.amount, .contribute{
     display: flex;
     justify-content: center;
 }
@@ -53,6 +58,7 @@ button{
     padding-top: 100px ;
     font-size: 20px;
     color: gainsboro;
+    margin: 0px 350px;
 }
 .plan-box{
   border: none;
@@ -72,6 +78,82 @@ button{
 .box3{
     background-color: rgb(246, 246, 223);
 }
-img{
+.plan-img{
     width: 25%;
+}
+
+.contribute{
+    padding: 100px;
+}
+.help{
+    margin: 20px;
+    font-size: 30px;
+    width: 700px;
+    margin: 25px;
+}
+
+.help-img{
+   width: 100%;
+   height: 500px;
+}
+.help-btn{
+    padding-top: 50px;
+}
+.help img{
+    border-radius: 15px;
+}
+
+.help-again{
+    margin: 30px;
+    font-size: 35px;
+    width: 700px;
+    margin: 25px;
+}
+
+.help-again img{
+    width: 100%;
+    height: 500px;
+    border-radius: 15px;
+}
+
+
+
+.updates{
+    text-align: center;
+    font-size: 35px;
+}
+.email{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    background-color: rgb(226, 226, 187);
+    margin: 100px 300px;
+    padding: 100px 20px;
+}
+.display{
+    border-radius: 5px 0 0 5px;
+    background-color: rgb(209, 209, 209);
+    padding: 10px 30px;
+    width: 250px;
+}
+.update-btn{
+    padding: 17px 30px;
+    border-radius: 0 5px 5px 0;
+    color: azure;
+    background-color: rgb(239, 91, 91);
+    border: none;
+    font-size: 15px;
+}
+
+.footer{
+    background-color: rgb(3, 3, 33);
+    text-align: center;
+    padding: 70px;
+
+}
+.humble{
+    color:rgb(239, 91, 91);
+}
+.do{
+    color: wheat;
 }
